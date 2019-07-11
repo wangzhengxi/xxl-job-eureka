@@ -1,0 +1,57 @@
+spring:
+  mail:
+     host: smtp.qq.com
+#    username: 695310480@qq.com
+#    password: alodtiwqrekkbefj
+#    port: 25
+#    properties:
+#      mail:
+#        smtp:
+#          starttls:
+#            enable: true
+#            required: true
+#          auth: true
+#  freemarker:
+#    settings:
+#      number_format: 0.##########
+#    charset: UTF-8
+#    request-context-attribute: request
+#    templateLoaderPath: classpath:/templates/
+#    suffix: .ft
+#  datasource:
+#    tomcat:
+#      test-on-borrow: true
+#      max-active: 30
+#      validation-query: SELECT 1
+#      max-wait: 10000
+#      validation-interval: 30000
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://192.168.1.212:3306/xxl_job?Unicode=true&characterEncoding=UTF-8
+#    username: yldbuser
+#    password: yldev-123
+#  resources:
+#    static-locations: classpath:/static/
+#  mvc:
+#    static-path-pattern: /static/**
+#  application:
+#    name: xxl-job-admin
+#server:
+#  port: 8111
+#  servlet:
+#    context-path: /xxl-job-admin
+#mybatis:
+#  mapper-locations: classpath:/mybatis-mapper/*Mapper.xml
+#xxl:
+#  job:
+#    login:
+#      password: 123456
+#      username: admin
+#    accessToken:
+#    i18n:
+#eureka:
+#  instance:
+#    hostname: ${hostname:localhost}
+#    preferIpAddress: true
+#  client:
+#    serviceUrl:
+#      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
