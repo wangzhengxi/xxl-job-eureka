@@ -67,7 +67,7 @@
 		<yl-redis.version>1.0.1-SNAPSHOT</yl-redis.version>
 		<yl-mongo.version>1.0.1-SNAPSHOT</yl-mongo.version>
 		<yl-sharding-jdbc-spring-boot-starter.version>4.0.0-RC1</yl-sharding-jdbc-spring-boot-starter.version>
-		<xxl-job-core.version>2.0.2</xxl-job-core.version>
+		<xxl-job-core.version>2.3.1</xxl-job-core.version>
 
 	</properties>
 
